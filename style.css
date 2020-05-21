@@ -1,0 +1,23 @@
+td{
+    text-align: center;
+}
+/*color: #bf822f*/
+option{ background-color: #ffffff; color: black}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #bf822f;
+    border-color: #bf822f;
+}
+.btn-outline-dark{
+    border-color: #bf822f;
+}
+.equalmar div+div ,.equalmar .d-inline select+select{margin-left: 35px;}
+.equalmar div button,.equalmar div select{ min-width: 15%;}
+.heading { color: #bf822f; font-weight: 600; padding-top: 5px}
+.w24 { width: 24%; text-align: center}
+.w-50{ text-align: center}
+tr{ border-bottom: 1px solid #dee2e6;}
+.noBorder{ border-bottom: none;}
+.noBorder td{ padding-bottom:20px; }
+.background{ background-color: #bf822f; color: #ffffff;}
+span{ color: #ffffff;}

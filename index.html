@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <script src="external%20files/jQuery.js"></script>
+    <script src="external%20files/fontawsome.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="external%20files/bootstrap.css">
+    <link rel="stylesheet" href="external%20files/font.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mx-auto w-50 pt-3">
+    <div class="border ">
+        <p class="text-center heading mb-1" >CALENDAR</p>
+    </div>
+    <div class="border background">
+        <div class="d-inline-block w24">
+            <a id="prev"><i class="fas fa-caret-left"></i></a>
+        </div>
+        <div class="d-inline-block w-50">
+            <p class="text-center heading mb-1 w-50 d-inline-block" id="displayMonth" ><span id="Monthdisplay">MAY</span><span id="Yeardisplay">2020</span></p>
+        </div>
+        <div class="d-inline-block w24">
+            <a id="next"><i class="fas fa-caret-right"></i></a>
+        </div>
+
+    </div>
+    <div>
+        <table class="w-100">
+            <thead>
+            <tr class="noBorder font-weight-bold">
+                <td>SUN</td>
+                <td>MON</td>
+                <td>TUE</td>
+                <td>WED</td>
+                <td>THU</td>
+                <td>FRI</td>
+                <td>SAT</td>
+            </tr>
+            </thead>
+            <tbody id="calenderBody">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="noBorder">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="equalmar mt-2">
+        <div class="d-inline">
+            <button class="btn btn-outline-dark" id="currentDay">Today</button>
+        </div>
+        <div class="d-inline">
+        <select class="btn btn-outline-dark" id="year">
+            <option selected>2020</option>
+        </select>
+        <select class="btn btn-outline-dark" id="month">
+        </select>
+        <select class="btn btn-outline-dark" id="date">
+        </select>
+        </div>
+        <div class="d-inline">
+            <button class="btn btn-outline-dark" id="find">Find Date</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
